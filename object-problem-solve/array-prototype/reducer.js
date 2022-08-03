@@ -8,21 +8,12 @@
 // console.log("the sum is ", sum);
 
 
-// var pets = ['dog', 'chicken', 'cat', 'dog', 'chicken', 'chicken', 'rabbit'];
 
-// var petCounts = pets.reduce(function (obj, pet) {
-//     if (!obj[pet]) {
-//         obj[pet] = 1;
-//     } else {
-//         obj[pet]++;
-//     }
-//     return obj;
-// }, {});
+// solution by reducer
+function positiveSum(arr) {
+    return arr.reduce((a, b) => a + (b > 0 ? b : 0), 0);
+}
 
-// console.log(petCounts); 
-
-
-const counts = {};
-const sampleArray = ['a', 'a', 'b', 'c'];
-sampleArray.forEach((x) => { console.log(counts[x] = counts[x] || 0) });
-// console.log(counts)
+const array = [1, -4, 7, 12];
+let sum = positiveSum(array)
+console.log(sum);

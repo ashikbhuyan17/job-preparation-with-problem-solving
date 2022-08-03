@@ -16,3 +16,10 @@ const findDuplicate = (array) => {
 const array_elements = ["a", "b", "c", "d", "e", "a", "b", "c", "f", "g", "h", "h", "h", "e", "a"];
 const ans = findDuplicate(array_elements)
 console.log(ans);
+
+const values = Object.values(ans)
+console.log(values);
+
+console.log("max is", Math.max(...values));
+console.log("min is", Math.min(...values));
+
