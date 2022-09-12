@@ -1,3 +1,5 @@
+// https://www.tabnine.com/academy/javascript/how-to-get-an-objects-keys-and-values/
+
 const student = {
     sName: "ashik",
     sAge: 30,
