@@ -19,6 +19,11 @@
 // const reverseString = str => str.split('').reverse().join('');
 const reverseString = str => [...str].reverse().join('');
 
+// const reverseString = (str) => {
+//     return [...str].reverse().join('');
+// }
+
+
 
 // function reverseString(s) {
 //     var o = '';

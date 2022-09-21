@@ -23,8 +23,8 @@
 
 //solution by map and reducer
 function positiveSum(arr) {
-    let positiveValue = arr.map(el => el < 0 ? 0 : el)
-    console.log(positiveValue);
+    let positiveValue = arr.filter(el => el < 0 ? 0 : el)
+    return positiveValue
 }
 
 const array = [1, -4, 7, 12];
